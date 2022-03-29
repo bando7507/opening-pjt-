@@ -4,9 +4,11 @@
       </div>
       <div class="anime--info">
           <div class="top">
+              <router-link :to="{name: 'AnimeContent', params:{name: info_anime.name, image: info_anime.image, im: info_anime.im}}">
               <p class="name">
                   name : {{info_anime.name}}
               </p>
+              </router-link>
               <p class="descrip">
                   date de sortir :
               </p>
