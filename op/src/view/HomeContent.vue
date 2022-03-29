@@ -83,6 +83,5 @@
     input {
         position: absolute;
         top: 50%;
-     
     }
 </style>
